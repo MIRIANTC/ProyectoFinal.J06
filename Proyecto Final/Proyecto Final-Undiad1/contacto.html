@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirian's site</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Animaciones -->
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Mirian's Site</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mirian's Site</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="d-grid gap-2 col-6 mx-auto text-center">
+                            <a class="nav-enlace" type="button" href="index.html">Inicio</a>
+                            <a class="nav-enlace" type="button" href="familia.html">Familia</a>
+                            <a class="nav-enlace" type="button" href="amigos.html">Amigos</a>
+                            <a class="nav-enlace" type="button" href="estudios.html">Estudios</a>
+                            <a class="nav-enlace" type="button" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light animate__animated animate__bounce">Contáctanos</h1>
+                    <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15605.267876426155!2d-77.0661608!3d-12.0904396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9d7e1bad47b%3A0x3aefe8640198f505!2sHappy%20Mobile%20Per%C3%BA%20-%20Servicio%20T%C3%A9cnico%20de%20Celulares!5e0!3m2!1ses!2spe!4v1667437024446!5m2!1ses!2spe"
+                        width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-3">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatnombre" placeholder="ingrese su nombre">
+                            <label for="floatnombre">Nombre</label>
+                            <div data-lastpass-icon-root="true" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatcorreo" placeholder="ingrese su correo">
+                            <label for="floatcorreo">Correo</label>
+                            <div data-lastpass-icon-root="true" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control textarea" id="floatmensaje" placeholder="ingrese su correo">
+                            <label for="floatmensaje">Mensaje</label>
+                            <div data-lastpass-icon-root="true" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
+                        </div>
+
+
+                        <button class="w-100 btn btn-lg btn-primary" type="button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="container footer text-center mt-5">
+            <p>© 2022 <a href="index.html">Mirian's Site</a> Todos los derechos reservados</p>
+        </footer>
+    </main>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

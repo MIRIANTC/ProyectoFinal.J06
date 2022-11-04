@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kolker+Brush&family=Montserrat&display=swap');
+.navbar-brand,
+.offcanvas-title {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.navbar {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.offcanvas {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    color: #fff;
+}
+
+.nav-enlace {
+    text-decoration: none;
+    margin-top: 6vh;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.nav-enlace:hover {
+    color: #6E2934;
+    transform: scale(1.1);
+}
+
+.footer {
+    border-top: 1px solid #D2D2D2;
+    padding-top: 1.5rem;
+}
+
+.ocultar {
+    display: none;
+}
+
+.textarea {
+    height: 15vh !important;
+}
